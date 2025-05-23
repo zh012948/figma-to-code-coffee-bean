@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 12px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navlinks ul li a {
+    text-decoration: none;
+    color: white;
+    margin: 22px;
+    transition: 0.2s ease;
+}
+
+.navlinks ul li a:hover {
+    color: rgb(111, 78, 55);
+    font-weight: bold;
+}
+
+.navlinks ul li {
+    list-style: none;
+
+}
+
+
+.navlinks ul {
+    display: flex;
+
+}
+
+
+#sign-in {
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    padding: 12px 20px;
+    background: transparent;
+    border-radius: 22px;
+}
+
+#sign-up {
+    text-decoration: none;
+    margin: 5px;
+    padding: 12px 20px;
+    color: black;
+    background: #F9C06A;
+    border-radius: 22px;
+}
+
+.navbar .logo img:hover {
+    transition: 0.2s ease all;
+    transform: scale(1.2);
+    cursor: pointer;
+}
