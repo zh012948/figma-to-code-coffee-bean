@@ -6,6 +6,7 @@
     background-position: center;
     background-repeat: no-repeat;
     font-family: "Playfair Display", serif;
+    -webkit-tap-highlight-color: transparent;
     scroll-behavior: smooth;
 }
 
@@ -64,6 +65,7 @@
     font-size: 15px;
     border: none;
     cursor: pointer;
+    outline: none;
     margin-top: 25px;
     font-weight: bold;
     transition: 0.3s ease-out;
@@ -106,5 +108,6 @@
 
     .btnOrder {
         margin-top: 40px;
+
     }
 }

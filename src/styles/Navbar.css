@@ -5,6 +5,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Playfair Display", serif;
+    -webkit-tap-highlight-color: transparent;
     scroll-behavior: smooth;
 
 }
@@ -51,6 +52,7 @@
     color: white;
     margin: 5px;
     padding: 12px 20px;
+    outline: none;
     background: transparent;
     border-radius: 22px;
 }
@@ -61,6 +63,7 @@
     padding: 12px 20px;
     color: black;
     background: #F9C06A;
+    outline: none;
     border-radius: 22px;
     transition: 0.2s ease-in-out;
 }
