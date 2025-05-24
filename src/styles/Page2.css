@@ -6,6 +6,63 @@
 }
 
 .page2-container {
-    height: 100vh;
-    padding-top: 60px;
+    height: 95vh;
+    padding-top: 0px;
+    overflow: hidden;
+}
+
+.page2-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* margin: 12px; */
+}
+
+
+.page2-container .content-container {
+    margin-top: 230px;
+    width: 550px;
+    /* background-color: red; */
+
+}
+
+.page2-container .content-container .title {
+    font-size: 40px;
+    font-weight: bolder;
+    color: #492903;
+    margin-bottom: 20px;
+
+}
+
+.page2-container .content-container .text {
+    font-size: 18px;
+    color: #707070;
+    line-height: 1.4;
+    margin-bottom: 23px;
+}
+
+
+.btnLearnMore button {
+    background-color: #F9C06A;
+    padding: 12px 20px;
+    color: black;
+    border-radius: 24px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+    z-index: 2;
+}
+
+.btnLearnMore button:hover {
+    opacity: 0.85;
+}
+
+.btnLearnMore button:active {
+    opacity: 1.2;
+}
+
+.left-blast {
+    transform: translate(-100px, -100px);
+    z-index: -3;
 }
