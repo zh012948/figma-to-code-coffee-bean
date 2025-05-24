@@ -35,3 +35,12 @@
 .custom-card:hover {
     box-shadow: 1px 12px 8px rgba(0, 0, 0, 0.9);
 }
+
+@media screen and (max-width:768px) {
+    .custom-card {
+        width: 300px;
+        margin-left: 13px;
+    }
+
+
+}

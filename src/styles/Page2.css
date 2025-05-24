@@ -6,6 +6,7 @@
 }
 
 .page2-container {
+    position: relative;
     height: 95vh;
     padding-top: 0px;
     overflow: hidden;
@@ -66,4 +67,34 @@
 .left-blast {
     transform: translate(-100px, -100px);
     z-index: -3;
+}
+
+
+
+
+@media screen and (max-width:768px) {
+    .page2-container {
+        height: 100vh;
+        flex-direction: column;
+        overflow: visible;
+    }
+
+    .page2-container .content-container {
+        margin-top: 60px;
+        margin-left: 210px;
+    }
+
+    .page2-container .content-container .title {
+        font-size: 31px;
+    }
+
+    .page2-container .content-container .text {
+        width: 340px;
+        text-align: justify;
+    }
+
+    .image-container img {
+        width: 80%;
+        transform: translateY(-165px);
+    }
 }

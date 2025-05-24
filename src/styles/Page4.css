@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 .page4-container {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -72,4 +73,48 @@
 
 .btnJoin:active {
     opacity: 1.2;
+}
+
+
+@media screen and (max-width:768px) {
+    .page4-container {
+        margin-top: 1550px;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    .page4-container .question {
+        font-size: 25px;
+        margin-left: 15px;
+    }
+
+    .page4-container .top-blast {
+        transform: translate(220px, 75px);
+        width: 442px;
+    }
+
+    .page4-container .top-blast {
+        width: 145px;
+    }
+
+    .page4-container .desc1 {
+        margin-top: 35px;
+        line-height: 1;
+        margin-bottom: 20px;
+        margin-left: 15px;
+    }
+
+    .content-card-container {
+        flex-direction: column;
+    }
+
+    .text-started {
+        margin-left: 45px;
+        text-align: center;
+    }
+
+    .btnJoin {
+        margin-left: 110px;
+        font-size: 15px;
+    }
 }

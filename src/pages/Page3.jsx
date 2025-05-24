@@ -7,6 +7,7 @@ import expresso from '../assets/images/expresso.png'
 function Page3() {
     return (
         <>
+
             <div className="page3-container">
                 <div className="title">
                     Enjoy a new blend of coffee style

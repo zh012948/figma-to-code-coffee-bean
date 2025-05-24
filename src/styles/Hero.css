@@ -88,15 +88,17 @@
     }
 
     .wrapper .top-info {
-        font-size: 20px;
+        font-size: 19px;
+        padding: 7px;
     }
 
     .coffee-img img {
-        width: 100%;
+        width: 90%;
     }
 
     .hero-container .wrapper {
-        width: 370px;
+        /* width: 370px; */
+        width: 100%;
     }
 
     .wrapper .lower-info {
@@ -104,6 +106,7 @@
         line-height: 1.5;
         text-wrap: wrap;
         color: white;
+        padding: 7px;
     }
 
     .btnOrder {

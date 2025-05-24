@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 .page3-container {
+    position: relative;
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -29,4 +30,30 @@
     display: flex;
     margin: 24px;
     gap: 25px;
+}
+
+
+@media screen and (max-width:768px) {
+
+    .page3-container {
+        padding-top: 140px;
+        margin: 13px;
+    }
+
+    .page3-container .title {
+        font-size: 22px;
+        font-weight: bolder;
+        margin-bottom: 5px;
+    }
+
+    .page3-container .desc {
+        margin-left: 5px;
+        line-height: 1.5;
+        font-weight: 400;
+    }
+
+
+    .coffee-container {
+        flex-direction: column;
+    }
 }

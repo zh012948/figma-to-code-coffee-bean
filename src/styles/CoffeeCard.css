@@ -61,3 +61,27 @@
 .order-now:active {
     opacity: 4.6;
 }
+
+
+@media screen and (max-width:768px) {
+    .card {
+        width: 320px;
+        height: 260px;
+    }
+
+    .content-card {
+        line-height: 1.5;
+    }
+
+    .content-card .name {
+        font-size: 25px;
+    }
+
+    .content-card .price {
+        font-size: 22px;
+    }
+
+    .order-now {
+        transform: translate(105px, -21px);
+    }
+}
