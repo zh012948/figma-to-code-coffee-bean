@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.hero-container {
+    height: 100vh;
+    background-image: url('../assets/images/bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    font-family: "Playfair Display", serif;
+}
+
+.hero-container .wrapper {
+    padding-top: 120px;
+    color: white;
+    padding-left: 90px;
+    width: 640px;
+    text-align: justify;
+    z-index: 2;
+}
+
+.wrapper .top-info {
+    font-weight: 400;
+    font-size: 22px;
+}
+
+
+.wrapper .lower-info {
+    font-size: 20px;
+    line-height: 1.5;
+    color: rgb(233, 232, 232);
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    /* shorthand for top: 0; bottom: 0; left: 0; right: 0 */
+    background-color: rgba(0, 0, 0, 0.3);
+    /* adjust the 0.4 to increase/decrease darkness */
+    z-index: 1;
+}
+
+.hero-content {
+    position: relative;
+    color: white;
+    z-index: 2;
+
+}
+
+.coffee-img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.coffee-img img {
+    width: 65%;
+}
+
+
+.btnOrder {
+    background: #F9C06A;
+    border-radius: 24px;
+    padding: 12px 20px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: 25px;
+    font-weight: bold;
+    transition: 0.3s ease-out;
+}
+
+.btnOrder:hover {
+    opacity: 0.9;
+}
+
+.btnOrder:active {
+    opacity: 1.5;
+}
+
+
+@media screen and (max-width:768px) {
+
+    .hero-container .wrapper {
+        padding-left: 20px;
+        padding-top: 130px;
+    }
+
+    .wrapper .top-info {
+        font-size: 20px;
+    }
+
+    .coffee-img img {
+        width: 100%;
+    }
+
+    .hero-container .wrapper {
+        width: 370px;
+    }
+
+    .wrapper .lower-info {
+        font-size: 19px;
+        line-height: 1.5;
+        text-wrap: wrap;
+        color: white;
+    }
+
+    .btnOrder {
+        margin-top: 40px;
+    }
+}
