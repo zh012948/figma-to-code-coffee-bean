@@ -5,9 +5,8 @@
     background-image: url('../assets/images/bg.png');
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-
     font-family: "Playfair Display", serif;
+    scroll-behavior: smooth;
 }
 
 .hero-container .wrapper {
