@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.page3-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: "Playfair Display", serif;
+    padding-top: 70px;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.page3-container .title {
+    font-size: 47px;
+    font-weight: bold;
+    color: #492903;
+}
+
+.page3-container .desc {
+    line-height: 2.4;
+    color: #707070;
+    font-size: 19px;
+}
+
+
+.coffee-container {
+    display: flex;
+    margin: 24px;
+    gap: 25px;
+}

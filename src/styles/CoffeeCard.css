@@ -1,0 +1,61 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 260px;
+    height: 200px;
+    overflow: hidden;
+}
+
+
+.card img {
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.card img:hover {
+    transform: scale(1.2);
+}
+
+.content-card {
+    text-align: center;
+    line-height: 1.7;
+    background-color: #fcf2e3;
+    padding-top: 8px;
+    height: 130px;
+}
+
+.content-card .name {
+    font-size: 22px;
+    font-weight: 700;
+    color: #492903;
+}
+
+
+.content-card .price {
+    font-weight: 700;
+    font-size: 18px;
+    color: #492903;
+}
+
+
+.order-now {
+
+    padding: 12px 20px;
+    color: black;
+    background: #F9C06A;
+    border-radius: 22px;
+    cursor: pointer;
+    transform: translate(80px, -21px);
+    border: none;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+}
+
+.order-now:hover {
+    opacity: 0.9;
+}
+
+.order-now:active {
+    opacity: 4.6;
+}
