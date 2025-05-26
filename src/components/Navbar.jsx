@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import logo from '../assets/images/logo.png';
 import menuIcon from '../assets/images/menu.png';
 import closeIcon from '../assets/images/close.png';
@@ -6,13 +6,31 @@ import '../styles/Navbar.css';
 
 function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [showNavbar, setShowNavbar] = useState(true);
+    const [lastScrollY, setLastScrollY] = useState(0);
 
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
     };
 
+    useEffect(() => {
+        const handleScroll = () => {
+            if (!isMenuOpen) {
+                if (window.scrollY > lastScrollY) {
+                    setShowNavbar(false); // Scrolling down
+                } else {
+                    setShowNavbar(true); // Scrolling up
+                }
+            }
+            setLastScrollY(window.scrollY);
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, [lastScrollY, isMenuOpen]);
+
     return (
-        <nav className={`navbar ${isMenuOpen ? 'expanded' : ''}`}>
+        <nav className={`navbar ${isMenuOpen ? 'expanded' : ''} ${showNavbar ? 'show' : 'hide'}`}>
             <div className="logo">
                 <img src={logo} alt="logo" />
             </div>

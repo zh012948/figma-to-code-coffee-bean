@@ -94,6 +94,19 @@
     height: 28px;
 }
 
+
+/* Hide navbar on scroll down, show on scroll up */
+.navbar.hide {
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar.show {
+    transform: translateY(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+
 /* ----------------------------------
    🔧 Responsive (Mobile-first design)
 ---------------------------------- */
