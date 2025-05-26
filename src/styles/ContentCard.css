@@ -33,7 +33,7 @@
 
 
 .custom-card:hover {
-    box-shadow: 1px 12px 8px rgba(0, 0, 0, 0.9);
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.9);
 }
 
 @media screen and (max-width:768px) {
