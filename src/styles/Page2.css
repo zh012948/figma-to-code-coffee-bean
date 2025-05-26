@@ -85,7 +85,7 @@ video {
     .page2-container {
         height: 100vh;
         flex-direction: column;
-        overflow: visible;
+        /* overflow: visible; */
         width: 100%;
         overflow: hidden;
     }
