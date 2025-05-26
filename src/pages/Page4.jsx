@@ -10,7 +10,9 @@ function Page4() {
     return (
         <>
             <div className="page4-container">
-                <img src={topCoffeeBlast} alt="top Coffee Blast" className='top-blast' />
+                <div className='top-blast-container'>
+                    <img src={topCoffeeBlast} alt="top Coffee Blast" className='top-blast' />
+                </div>
 
                 <div className="question">Why are we different?</div>
                 <div className="desc1">We don’t just make your coffee, we make your day!</div>

@@ -81,6 +81,7 @@
         margin-top: 1550px;
         align-items: flex-start;
         padding: 20px;
+
     }
 
     .page4-container .question {
@@ -95,7 +96,16 @@
 
     .page4-container .top-blast {
         width: 145px;
+        /* overflow: hidden; */
     }
+
+    .page4-container .top-blast {
+        /* transform: translate(454px, 150px); */
+        transform: translateX(199px);
+
+    }
+
+
 
     .page4-container .desc1 {
         margin-top: 35px;
