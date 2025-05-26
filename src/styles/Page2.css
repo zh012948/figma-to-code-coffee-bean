@@ -12,6 +12,12 @@
     overflow: hidden;
 }
 
+img,
+video {
+    max-width: 100%;
+    height: auto;
+}
+
 .page2-container {
     display: flex;
     justify-content: space-evenly;
@@ -77,7 +83,9 @@
         height: 100vh;
         flex-direction: column;
         overflow: visible;
+
     }
+
 
     .page2-container .content-container {
         margin-top: 60px;
