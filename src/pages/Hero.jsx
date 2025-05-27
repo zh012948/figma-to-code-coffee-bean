@@ -5,7 +5,9 @@ function Hero() {
     return (
         <>
             <div className="hero-container" >
+
                 <div className="overlay"></div>
+
                 <div className="hero-content">
                     <div className="wrapper">
                         <div className="top-info">

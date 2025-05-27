@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.page5-container {
+    position: relative;
+    padding-top: 60px;
+    height: 100vh;
+    background-image: url('../assets/images/page5-bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Playfair Display", serif;
+    z-index: -2;
+}
+
+
+.page5-container .overlay {
+    background-image: url('../assets/images/page5-overlay.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+
+
+
+.page5-container .content-container {}
+
+
+.page5-container .content-container .btnOrder5 {
+    background: #F9C06A;
+    border-radius: 24px;
+    padding: 12px 20px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+    font-weight: bold;
+    transition: 0.3s ease-out;
+    z-index: 2;
+}
+
+.btnOrder5:hover {
+    opacity: 0.;
+}
+
+.btnOrder5:active {
+    opacity: 1.5;
+}
