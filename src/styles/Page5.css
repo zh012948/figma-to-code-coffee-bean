@@ -1,9 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
+
+* {
+
+    font-family: "Playfair Display", serif;
+}
+
+.page5-wrapper {
+    margin-top: 40px;
+    height: 100vh;
+}
+
 .page5-container {
     position: relative;
+    width: 100%;
     padding-top: 60px;
-    height: 100vh;
+    height: 90vh;
     background-image: url('../assets/images/page5-bg.png');
     background-position: center;
     background-size: cover;
@@ -12,7 +24,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-family: "Playfair Display", serif;
     z-index: -2;
 }
 
@@ -50,4 +61,16 @@
 
 .btnOrder5:active {
     opacity: 1.5;
+}
+
+.page5-container .content-container .heading {
+    font-size: 42px;
+    color: white;
+    font-weight: 700;
+}
+
+.page5-container .content-container .desc3 {
+    font-size: 16px;
+    color: lightgrey;
+    line-height: 1.9;
 }
