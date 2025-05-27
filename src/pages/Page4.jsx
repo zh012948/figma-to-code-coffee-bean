@@ -18,21 +18,21 @@ function Page4() {
                 <div className="desc1">We don’t just make your coffee, we make your day!</div>
 
                 <div className="content-card-container">
-                    <ContentCard image={beans} title="Supreme Beans" message="Beans that provides great taste" aos="" />
-                    <ContentCard image={quality} title="High Quality" message="We provide the highest quality" />
-                    <ContentCard image={coffeeCup} title="Extraordinary" message="Coffee like you have never tasted" />
-                    <ContentCard image={bestPrice} title="Affordable Price" message="Our Coffee prices are easy to afford" />
+                    <ContentCard image={beans} title="Supreme Beans" message="Beans that provides great taste" delay="300" aos="fade-up" />
+                    <ContentCard image={quality} title="High Quality" message="We provide the highest quality" delay="400" aos="fade-up" />
+                    <ContentCard image={coffeeCup} title="Extraordinary" message="Coffee like you have never tasted" delay="500" aos="fade-up" />
+                    <ContentCard image={bestPrice} title="Affordable Price" message="Our Coffee prices are easy to afford" delay="600" aos="fade-up" />
                 </div>
 
-                <div className="desc1 desc2">
+                <div className="desc1 desc2" data-aos="fade-up" data-aos-delay="000">
                     Great ideas start with greate coffee, lets help you achieve that
                 </div>
 
-                <div className="text-started">
+                <div className="text-started" data-aos="fade-up" data-aos-delay="000">
                     Get started today.
                 </div>
 
-                <button className="btnJoin">Join Us</button>
+                <button className="btnJoin" data-aos="fade-up" data-aos-delay="000">Join Us</button>
             </div>
         </>
     )

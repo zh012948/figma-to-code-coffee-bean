@@ -1,4 +1,3 @@
-
 import coffeeCup from '../assets/images/cup.png'
 import '../styles/Page5.css'
 
@@ -9,7 +8,7 @@ function Page5() {
             <div className="page5-wrapper">
                 <div className="page5-container">
                     <div className="overlay"></div>
-                    <div className="content-container">
+                    <div className="content-container" data-aos="slide-up" data-aos-delay="300">
                         <div className="heading">
                             Get a chance to have an <br /> Amazing morning
                         </div>
@@ -23,7 +22,7 @@ function Page5() {
                         </div>
                     </div>
 
-                    <div className="img-container">
+                    <div className="img-container" data-aos="slide-up" data-aos-delay="400">
                         <img src={coffeeCup} alt="Coffee Cup" />
                     </div>
                 </div>
