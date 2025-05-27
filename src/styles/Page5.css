@@ -39,7 +39,10 @@
 
 
 
-.page5-container .content-container {}
+.page5-container .content-container {
+    top: -50px;
+    position: relative;
+}
 
 
 .page5-container .content-container .btnOrder5 {
@@ -64,13 +67,14 @@
 }
 
 .page5-container .content-container .heading {
-    font-size: 42px;
+    font-size: 52px;
     color: white;
     font-weight: 700;
 }
 
 .page5-container .content-container .desc3 {
-    font-size: 16px;
-    color: lightgrey;
+    margin-top: 12px;
+    font-size: 20px;
+    color: white;
     line-height: 1.9;
 }
