@@ -9,7 +9,7 @@ function Page4() {
 
     return (
         <>
-            <div className="page4-container">
+            <div className="page4-container" >
                 <div className='top-blast-container'>
                     <img src={topCoffeeBlast} alt="top Coffee Blast" className='top-blast' />
                 </div>
@@ -18,7 +18,7 @@ function Page4() {
                 <div className="desc1">We don’t just make your coffee, we make your day!</div>
 
                 <div className="content-card-container">
-                    <ContentCard image={beans} title="Supreme Beans" message="Beans that provides great taste" />
+                    <ContentCard image={beans} title="Supreme Beans" message="Beans that provides great taste" aos="" />
                     <ContentCard image={quality} title="High Quality" message="We provide the highest quality" />
                     <ContentCard image={coffeeCup} title="Extraordinary" message="Coffee like you have never tasted" />
                     <ContentCard image={bestPrice} title="Affordable Price" message="Our Coffee prices are easy to afford" />

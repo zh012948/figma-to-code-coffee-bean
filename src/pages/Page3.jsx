@@ -4,11 +4,17 @@ import cappuccinoImage from '../assets/images/cappuccino.png'
 import chaiLatte from '../assets/images/chai-latte.png'
 import machiato from '../assets/images/machiato.png'
 import expresso from '../assets/images/expresso.png'
+import { useEffect } from 'react'
+import Aos from 'aos'
 function Page3() {
+
+    useEffect(() => {
+        Aos.refresh();
+    }, [])
     return (
         <>
 
-            <div className="page3-container">
+            <div className="page3-container" data-aos="fade-up">
                 <div className="title">
                     Enjoy a new blend of coffee style
                 </div>
@@ -17,10 +23,10 @@ function Page3() {
                 </div>
 
                 <div className="coffee-container">
-                    <CoffeeCard name="Cappuccino" image={cappuccinoImage} />
-                    <CoffeeCard name="Chai Latte" image={chaiLatte} />
-                    <CoffeeCard name="Macchiato" image={machiato} />
-                    <CoffeeCard name="Expresso" image={expresso} />
+                    <CoffeeCard name="Cappuccino" image={cappuccinoImage} delay="500" aos="fade-up" />
+                    <CoffeeCard name="Chai Latte" image={chaiLatte} delay="700" aos="fade-up" />
+                    <CoffeeCard name="Macchiato" image={machiato} delay="900" aos="fade-up" />
+                    <CoffeeCard name="Expresso" image={expresso} delay="1100" aos="fade-up" />
                 </div>
             </div>
         </>

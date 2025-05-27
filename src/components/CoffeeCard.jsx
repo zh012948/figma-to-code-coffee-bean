@@ -4,8 +4,8 @@ function CoffeeCard(props) {
     return (
         <>
 
-            <div>
-                <div className="card">
+            <div data-aos={props.aos} data-aos-delay={props.delay}>
+                <div className="card" >
 
                     <img src={props.image} alt="cappucino" />
                 </div>

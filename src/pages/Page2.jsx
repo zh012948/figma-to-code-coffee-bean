@@ -6,7 +6,7 @@ function Page2() {
     return (
         <>
 
-            <div className="page2-container">
+            <div className="page2-container" data-aos="zoom-in">
                 <div className="content-container">
 
                     <div className="title">

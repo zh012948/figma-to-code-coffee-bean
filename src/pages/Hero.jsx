@@ -4,7 +4,7 @@ import coffee from '../assets/images/Coffee.png'
 function Hero() {
     return (
         <>
-            <div className="hero-container" >
+            <div className="hero-container" data-aos="zoom-out">
 
                 <div className="overlay"></div>
 
