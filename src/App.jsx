@@ -14,7 +14,7 @@ function App() {
   useEffect(() => {
     AOS.init({
       duration: 1000,
-      disable: false,
+      // disable: () => window.innerWidth < 768,
       startEvent: 'DOMContentLoaded',
       initClassName: 'aos-init',
       animatedClassName: 'aos-animate',
@@ -23,15 +23,22 @@ function App() {
       debounceDelay: 50,
       throttleDelay: 99,
 
-      // ✅ Per-element settings (can be overridden via data-aos attributes)
       offset: 100,
       delay: 0,
       easing: 'ease-in-out',
-      once: true,          // 👈 Animate once only
+      once: true,
       mirror: false,
       anchorPlacement: 'top-bottom',
     });
-  }, [])
+
+    // Optional: refresh AOS on window resize
+    const handleResize = () => AOS.refresh();
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
   return (
     <>

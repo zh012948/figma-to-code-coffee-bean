@@ -78,3 +78,29 @@
     color: white;
     line-height: 1.9;
 }
+
+
+@media screen and (max-width:768px) {
+    .page5-container {
+        margin-top: 830px;
+        padding: 14px;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .page5-container .content-container .heading {
+        font-size: 30px;
+    }
+
+    .img-container {
+        height: 190px;
+    }
+
+    .img-container img {
+        height: 280px;
+    }
+
+}

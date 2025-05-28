@@ -22,7 +22,7 @@ function Page5() {
                         </div>
                     </div>
 
-                    <div className="img-container" data-aos="slide-up" data-aos-delay="400">
+                    <div className="img-container" data-aos="slide-up" data-aos-delay="350">
                         <img src={coffeeCup} alt="Coffee Cup" />
                     </div>
                 </div>

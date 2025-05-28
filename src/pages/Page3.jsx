@@ -24,9 +24,9 @@ function Page3() {
 
                 <div className="coffee-container">
                     <CoffeeCard name="Cappuccino" image={cappuccinoImage} delay="500" aos="fade-up" />
-                    <CoffeeCard name="Chai Latte" image={chaiLatte} delay="700" aos="fade-up" />
-                    <CoffeeCard name="Macchiato" image={machiato} delay="900" aos="fade-up" />
-                    <CoffeeCard name="Expresso" image={expresso} delay="1100" aos="fade-up" />
+                    <CoffeeCard name="Chai Latte" image={chaiLatte} delay="550" aos="fade-up" />
+                    <CoffeeCard name="Macchiato" image={machiato} delay="600" aos="fade-up" />
+                    <CoffeeCard name="Expresso" image={expresso} delay="650" aos="fade-up" />
                 </div>
             </div>
         </>
