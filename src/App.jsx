@@ -26,7 +26,6 @@ function App() {
       // ✅ Per-element settings (can be overridden via data-aos attributes)
       offset: 100,
       delay: 0,
-      duration: 800,
       easing: 'ease-in-out',
       once: true,          // 👈 Animate once only
       mirror: false,
