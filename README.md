@@ -28,30 +28,6 @@ This project was focused on **UI/UX, responsiveness, and clean design** to creat
 | React.js      | AOS        | Vercel  |
 | CSS3          |            |         |
 
-
-
-## 📂 Folder Structure
-root
-│
-├── public
-├── src
-│ ├── components # Reusable React components
-│ ├── assets # Images, icons, etc.
-│ ├── App.jsx
-│ └── index.js
-
-
-
----
-
-## ✍️ Author
-
-**Zeeshan Haider**  
-📧 zh012948@gmail.com  
-🌐 [Portfolio](https://zeeshan-haider-1.vercel.app/)  
-🐙 [GitHub](https://github.com/zh012948)  
-💼 [LinkedIn](https://www.linkedin.com/in/m-zeeshan-haider-606bb3284/)
-
 ---
 
 ## 🤝 Support
