@@ -31,4 +31,46 @@ This project was focused on **UI/UX, responsiveness, and clean design** to creat
 
 
 ## 📂 Folder Structure
+root
+│
+├── public
+├── src
+│ ├── components # Reusable React components
+│ ├── assets # Images, icons, etc.
+│ ├── App.jsx
+│ └── index.js
+
+
+
+---
+
+## ✍️ Author
+
+**Zeeshan Haider**  
+📧 zh012948@gmail.com  
+🌐 [Portfolio](https://zeeshan-haider-1.vercel.app/)  
+🐙 [GitHub](https://github.com/zh012948)  
+💼 [LinkedIn](https://www.linkedin.com/in/m-zeeshan-haider-606bb3284/)
+
+---
+
+## 🤝 Support
+
+If you enjoyed this project, please ⭐️ the repository on GitHub to show support.  
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+
+
+
+
+
+
+
+
+
 
