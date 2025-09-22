@@ -16,7 +16,7 @@ This project was focused on **UI/UX, responsiveness, and clean design** to creat
 - 🎨 Beautiful, modern design for a coffee shop
 - 🖼️ Smooth animations with **AOS**
 - 📱 Fully responsive design (mobile, tablet, desktop)
-- ⚡ Built with lightweight React setup (no heavy dependencies)
+- ⚡ Built with light weight React setup (no heavy dependencies)
 - 🌟 Practice project for **UI/UX design and frontend animation**
 
 ---
@@ -28,7 +28,7 @@ This project was focused on **UI/UX, responsiveness, and clean design** to creat
 | React.js      | AOS        | Vercel  |
 | CSS3          |            |         |
 
----
+
 
 ## 📂 Folder Structure
 
