@@ -1,48 +1,34 @@
-# ☕ Bean Scene - Coffee Shop Website
+# ☕ Coffee Bean Website
 
-A modern, stylish, and responsive **Coffee Shop Website** built with **React** and **CSS3**.  
-Enhanced with the **AOS (Animate On Scroll) Library** to create smooth and engaging animations.  
-
-This project was focused on **UI/UX design, interactivity, and front-end aesthetics**.  
+A modern and elegant **Coffee Shop Website** built with **React.js** and **CSS**, featuring smooth animations using the **AOS (Animate On Scroll) library**.  
+This project was focused on **UI/UX, responsiveness, and clean design** to create a professional coffee shop experience.
 
 ---
 
-## ✨ Features
+## 🚀 Live Demo
 
-- 🎨 Beautiful and modern UI for a coffee shop  
-- 📱 Fully responsive design across all devices  
-- ✨ Smooth scroll animations with **AOS**  
-- ⚡ Built with **React** for component-based structure  
-- 🧾 Simple, clean, and pixel-perfect design  
-- 🚀 Fast and lightweight  
+🌐 [Live Website](https://bean-scene-xi.vercel.app/)  
+
+---
+
+## 📸 Features
+
+- 🎨 Beautiful, modern design for a coffee shop
+- 🖼️ Smooth animations with **AOS**
+- 📱 Fully responsive design (mobile, tablet, desktop)
+- ⚡ Built with lightweight React setup (no heavy dependencies)
+- 🌟 Practice project for **UI/UX design and frontend animation**
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React  
-- **Styling:** CSS3  
-- **Animations:** AOS (Animate On Scroll)  
+| Frontend      | Animations | Hosting |
+|---------------|------------|---------|
+| React.js      | AOS        | Vercel  |
+| CSS3          |            |         |
 
 ---
 
-## 🚀 Getting Started
-
-Clone and run the project locally:
-
-```bash
-# Clone the repository
-git clone https://github.com/your-username/coffee-bean-website.git
-
-# Navigate into the project folder
-cd coffee-bean-website
-
-# Install dependencies
-npm install
-
-# Start the development server
-npm run dev
-
-
-
+## 📂 Folder Structure
 
